@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
         //获得控件
         WebView webView = (WebView) findViewById(R.id.wv_webview);
         //访问网页
-        webView.loadUrl("http://101.69.255.131:9000/");
+        webView.loadUrl("http://101.69.255.131:8848/");
         //系统默认会通过手机浏览器打开网页，为了能够直接通过WebView显示网页，则必须设置
         webView.setWebViewClient(new WebViewClient(){
             @Override
